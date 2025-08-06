@@ -94,7 +94,7 @@ const Footer = () => {
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
             <span>Made with</span>
             <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>using n8n automation &a Vaibhav</span>
+            <span>using n8n automation & Vaibhav</span>
           </div>
         </div>
       </div>
