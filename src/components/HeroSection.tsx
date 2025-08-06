@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MessageCircle, Bot, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
+import { ArrowRight, User, Award, Target, BarChart3 } from "lucide-react";
+import portfolioHero from "@/assets/portfolio-hero.jpg";
 
 const HeroSection = () => {
   const scrollToSection = (id: string) => {
@@ -16,17 +16,17 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-primary font-semibold">
-                <Bot className="w-5 h-5" />
-                <span>AI-Powered Customer Support</span>
+                <User className="w-5 h-5" />
+                <span>Product Manager Portfolio</span>
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                WhatsApp AI Agent
-                <span className="block text-primary">That Never Sleeps</span>
+                Strategic Product
+                <span className="block text-primary">Leadership</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Build a no-code AI customer support agent using n8n, WhatsApp Cloud API, 
-                Google Docs, and OpenAI. Automate 80% of customer queries while keeping 
-                human oversight for complex cases.
+                Experienced product manager with a proven track record of driving growth,
+                leading cross-functional teams, and delivering user-centric solutions that 
+                create meaningful business impact.
               </p>
             </div>
 
@@ -34,34 +34,34 @@ const HeroSection = () => {
               <Button 
                 variant="hero" 
                 size="lg" 
-                onClick={() => scrollToSection('setup')}
+                onClick={() => scrollToSection('projects')}
                 className="group"
               >
-                Get Started
+                View Projects
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => scrollToSection('demo')}
+                onClick={() => scrollToSection('experience')}
               >
-                <MessageCircle className="w-5 h-5" />
-                See Demo
+                <User className="w-5 h-5" />
+                My Experience
               </Button>
             </div>
 
             <div className="flex items-center gap-8 pt-4">
               <div className="flex items-center gap-2">
-                <Zap className="w-5 h-5 text-primary" />
-                <span className="text-sm font-medium">No Code Required</span>
+                <Target className="w-5 h-5 text-primary" />
+                <span className="text-sm font-medium">Strategic Vision</span>
               </div>
               <div className="flex items-center gap-2">
-                <MessageCircle className="w-5 h-5 text-whatsapp" />
-                <span className="text-sm font-medium">WhatsApp Integration</span>
+                <BarChart3 className="w-5 h-5 text-primary" />
+                <span className="text-sm font-medium">Data-Driven</span>
               </div>
               <div className="flex items-center gap-2">
-                <Bot className="w-5 h-5 text-primary" />
-                <span className="text-sm font-medium">AI Powered</span>
+                <Award className="w-5 h-5 text-primary" />
+                <span className="text-sm font-medium">Results-Oriented</span>
               </div>
             </div>
           </div>
@@ -69,8 +69,8 @@ const HeroSection = () => {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-primary rounded-2xl opacity-20 blur-xl animate-glow"></div>
             <img 
-              src={heroImage} 
-              alt="WhatsApp AI Customer Support System"
+              src={portfolioHero} 
+              alt="Product Manager Portfolio"
               className="relative rounded-2xl shadow-elegant w-full animate-float"
             />
           </div>
