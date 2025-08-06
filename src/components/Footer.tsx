@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Github, ExternalLink, Heart } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-muted py-16">
+  return <footer className="bg-muted py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo and Description */}
@@ -96,12 +94,10 @@ const Footer = () => {
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
             <span>Made with</span>
             <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>using n8n automation</span>
+            <span>using n8n automation &a Vaibhav</span>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
