@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, User, Award, Target, BarChart3 } from "lucide-react";
+import { ArrowRight, User, Zap, MessageCircle, Bot } from "lucide-react";
 import portfolioHero from "@/assets/portfolio-hero.jpg";
 
 const HeroSection = () => {
