@@ -32,7 +32,7 @@ const HeroSection = () => {
               <Button 
                 variant="hero" 
                 size="lg" 
-                onClick={() => scrollToSection('projects')}
+                onClick={() => scrollToSection('setup')}
                 className="group"
               >
                 Get Started
@@ -41,7 +41,7 @@ const HeroSection = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => scrollToSection('experience')}
+                onClick={() => scrollToSection('demo')}
               >
                 <User className="w-5 h-5" />
                 See Demo
