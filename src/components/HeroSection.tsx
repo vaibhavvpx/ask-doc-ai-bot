@@ -16,8 +16,8 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-primary font-semibold">
-                <User className="w-5 h-5" />
-                <span>Product Manager Portfolio</span>
+                <Bot className="w-5 h-5" />
+                <span>AI-Powered Customer Support</span>
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                 WhatsApp AI Agent<br />That Never Sleeps
