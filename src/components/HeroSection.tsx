@@ -20,13 +20,11 @@ const HeroSection = () => {
                 <span>Product Manager Portfolio</span>
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                Strategic Product
-                <span className="block text-primary">Leadership</span>
+                WhatsApp Ai Agent<br />That Never Sleeps
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Experienced product manager with a proven track record of driving growth,
-                leading cross-functional teams, and delivering user-centric solutions that 
-                create meaningful business impact.
+                Build a no-code AI customer support agent using n8n, WhatsApp Cloud API, Google Docs, and OpenAI. 
+                Automate 80% of customer queries while keeping human oversight for complex cases.
               </p>
             </div>
 
@@ -37,7 +35,7 @@ const HeroSection = () => {
                 onClick={() => scrollToSection('projects')}
                 className="group"
               >
-                View Projects
+                Get Started
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
@@ -46,22 +44,22 @@ const HeroSection = () => {
                 onClick={() => scrollToSection('experience')}
               >
                 <User className="w-5 h-5" />
-                My Experience
+                See Demo
               </Button>
             </div>
 
             <div className="flex items-center gap-8 pt-4">
               <div className="flex items-center gap-2">
                 <Target className="w-5 h-5 text-primary" />
-                <span className="text-sm font-medium">Strategic Vision</span>
+                <span className="text-sm font-medium">No Code Required</span>
               </div>
               <div className="flex items-center gap-2">
                 <BarChart3 className="w-5 h-5 text-primary" />
-                <span className="text-sm font-medium">Data-Driven</span>
+                <span className="text-sm font-medium">WhatsApp Integration</span>
               </div>
               <div className="flex items-center gap-2">
                 <Award className="w-5 h-5 text-primary" />
-                <span className="text-sm font-medium">Results-Oriented</span>
+                <span className="text-sm font-medium">AI Powered</span>
               </div>
             </div>
           </div>
