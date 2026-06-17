@@ -20,7 +20,7 @@ const HeroSection = () => {
                 <span>Product Manager Portfolio</span>
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                WhatsApp Ai Agent<br />That Never Sleeps
+                WhatsApp AI Agent<br />That Never Sleeps
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Build a no-code AI customer support agent using n8n, WhatsApp Cloud API, Google Docs, and OpenAI. 
