@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, User, Award, Target, BarChart3 } from "lucide-react";
+import { ArrowRight, User, Zap, MessageCircle, Bot } from "lucide-react";
 import portfolioHero from "@/assets/portfolio-hero.jpg";
 
 const HeroSection = () => {
@@ -50,15 +50,15 @@ const HeroSection = () => {
 
             <div className="flex items-center gap-8 pt-4">
               <div className="flex items-center gap-2">
-                <Target className="w-5 h-5 text-primary" />
+                <Zap className="w-5 h-5 text-primary" />
                 <span className="text-sm font-medium">No Code Required</span>
               </div>
               <div className="flex items-center gap-2">
-                <BarChart3 className="w-5 h-5 text-primary" />
+                <MessageCircle className="w-5 h-5 text-primary" />
                 <span className="text-sm font-medium">WhatsApp Integration</span>
               </div>
               <div className="flex items-center gap-2">
-                <Award className="w-5 h-5 text-primary" />
+                <Bot className="w-5 h-5 text-primary" />
                 <span className="text-sm font-medium">AI Powered</span>
               </div>
             </div>
